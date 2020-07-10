@@ -1,0 +1,801 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Δωρεάν Μαθήματα Spring Framework</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		  content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων σε Spring Framework">
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="Spring, Spring 5, Spring Boot,
+              δωρεάν,
+               προγραμματισμός, δωρεάν μαθήματα, δωρεάν σεμινάρια, μαθήματα Spring, σεμινάρια Spring" />
+	<meta name="author" content="Michail Kassapoglou" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sunburst"></script>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-150900548-1');
+	</script>
+</head>
+<body>
+
+	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="upper-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4">
+							<p>Welcome to Kassapoglou</p>
+						</div>
+						<!--<div class="col-xs-6 col-md-push-2 text-right">
+							<p>
+								<ul class="colorlib-social-icons">
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-facebook"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble"></i></a></li>
+								</ul>
+							</p>
+							<p class="btn-apply"><a href="#">Apply Now</a></p>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<div id="colorlib-logo"><a
+									href="https://kassapoglou.github.io/main/index.html">Kassapoglou</a></div>
+						</div>
+						<div class="col-md-10 text-right menu-1">
+							<ul>
+								<li><a href="https://kassapoglou.github.io/main/index.html">Home</a></li>
+								<li class="has-dropdown active">
+									<a href="https://kassapoglou.github.io/main/courses.html">Courses</a>
+									<ul class="dropdown">
+										<li><a href="https://kassapoglou.github.io/java/java-programming.html">Java</a>
+										</li>
+										<li><a
+												href="https://kassapoglou.github.io/python/python-programming.html">Python</a>
+										</li>
+										<li><a href="https://kassapoglou.github.io/go/go-programming.html">GO</a></li>
+										<li><a
+												href="https://kassapoglou.github.io/javascript/javascript-programming.html">JavaScript</a>
+										</li>
+										<li><a href="https://kassapoglou.github.io/maven/learning-maven.html">Apache
+												Maven</a></li>
+										<li><a href="https://kassapoglou.github.io/camel/apache-camel-programming.html">Apache
+												Camel</a></li>
+										<li><a href="https://kassapoglou.github.io/spring/spring-programming.html">Spring
+												</a></li>
+									</ul>
+								</li>
+								<!--<li><a href="about.html">About</a></li>-->
+								<!--	<li><a href="event.html">Events</a></li>
+								<li><a href="news.html">News</a></li> -->
+								<li><a href="https://kassapoglou.github.io/main/contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+					<li style="background-image: url(images/A_Spring.png);">
+						<div class="overlay"></div>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+									<div class="slider-text-inner text-center">
+										<h1>ΜΑΘΑΙΝΩ ΔΩΡΕΑΝ SPRING FRAMEWORK</h1>
+										<h2><STRONG>ΕΝΟΤΗΤΑ 2 - CONSTRUCTOR-BASED DEPENDENCY INJECTION</STRONG></h2>
+										<h2><span><a href="https://kassapoglou.github.io/main/index.html">Home</a> | <a
+													href="https://kassapoglou.github.io/main/courses.html">Courses</a> |
+											<a href="https://kassapoglou.github.io/spring/spring-programming.html">SPRING PROGRAMMING</a></span></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<div class="colorlib-classes">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-12">
+						<div class="row row-pb-lg">
+							<div class="col-md-12 animate-box">
+								<div class="classes class-single">
+									<div class="classes-img" style="background-image: url(images/A_Spring2.png);">
+										<span class="price text-center"><small>FREE</small></span>
+									</div>
+									<div class="desc desc2">
+										<h3 align="center"><a
+												href="https://kassapoglou.github.io/spring/spring-programming.html">ΕΝΟΤΗΤΑ 2 SPRING - CONSTRUCTOR-BASED DEPENDENCY INJECTION</a></h3>
+																					<center>
+																						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+																							<input type="hidden" name="cmd" value="_s-xclick" />
+																							<input type="hidden" name="hosted_button_id" value="GQD77W6K672RA" />
+																							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+																								border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+																								alt="Donate with PayPal button" />
+																							<img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1"
+																								height="1" />
+																						</form>
+																					</center>
+				
+
+
+
+<p>Στο σημερινό δωρεάν μάθημα Spring Framework θα εξηγήσουμε τι είναι το <strong>Dependency Injection</strong> και πως ορίζουμε Constructor
+Dependency Injection σε ένα Spring Project. Μην ξεχνάτε ότι ακόμα θα δείχνουμε τα παραδείγματα μας χρησιμοποιώντας XML
+configuration μέχρι να κατανοήσουμε κάποιες βασικές λειτουργίες του Spring Framework και μετά θα κάνουμε αποκλειστικά
+χρήση μόνο των annotations. Ας ξεκινήσουμε λοιπόν την θεωρία μας.</p>
+
+<p>Στην προηγούμενη ενότητα είχαμε δει αναλυτικά τι είναι ένα Spring Container και ποια είναι η δουλειά του Inversion of
+Control. Επίσης είχαμε αναφέρει ότι οι κύριες υπηρεσίες του Spring Framework είναι δύο:</p>
+<p><strong>1.</strong> Να δημιουργεί και να διαχειρίζεται αντικείμενα (Inversion of Control)</p>
+<p><strong>2.</strong> Να εισάγει αντικείμενα όπου χρειάζονται στην εφαρμογή (Dependency Injection).</p>
+
+<p>Στο σημερινό δωρεάν μάθημα Spring Framework θα δούμε πως ακριβώς λειτουργεί το Dependency Injection μέσα από ένα
+ολοκληρωμένο παράδειγμα. Όπως καταλαβαίνετε δεν μπορούμε να έχουμε dependency injection χωρίς πρώτα να έχουμε ορίσει το
+Spring container και κατά συνέπεια το Inversion of Control. Νομίζω αυτό είναι απόλυτα κατανοητό.</p>
+
+<p>Ας δούμε ένα παράδειγμα από την αρχή αλλά αυτή τη φορά θα προσθέσουμε και το Dependency Injection και ποιο συγκεκριμένα
+Constructor-based Dependency Injection.</p>
+
+<p>Έχουμε λοιπόν μια εφαρμογή κράτησης αεροπορικών εισιτηρίων. Φυσικά η εφαρμογή μας δεν θα είναι πολύπλοκη όσο αφορά τον
+κώδικα για να επικεντρωθούμε περισσότερο στην θεωρία. Αυτό που ζητάμε από την εφαρμογή μας είναι να μπορούμε να κάνουμε
+κράτηση θέσης για μια πτήση. Αυτή η λογική μπορεί εύκολα να περιγραφεί από ένα interface και μια class που θα υλοποιεί
+τις μεθόδους του interface. Πως συνδέεται όμως αυτό με το Spring Framework? Εμείς ζητάμε ένα αντικείμενο είδος Flight
+και το Object Factory του Spring θα μας το δώσει. Μέχρι εδώ είναι η λογική του Inversion of Control όπως την είδαμε στην
+προηγούμενη ενότητα.</p>
+
+<p>Η λογική του προγράμματος όμως απαιτεί να υπάρχουν και άλλα αντικείμενα μέσα στην εφαρμογή, όπως π.χ discount (έκπτωση)
+για κάποιες συγκεκριμένες πτήσεις. Αυτά τα αντικείμενα επειδή είναι βοηθητικά στην κύρια λογική της εφαρμογής
+ονομάζονται helper objects. Και εδώ είναι που χρειαζόμαστε το Dependency Injection. Εμείς εξακολουθούμε να ζητάμε ένα
+αντικείμενο είδος πτήσης για να κάνουμε την κράτηση μας, όμως πριν το Spring Framework μας προμηθεύσει με το αντικείμενο
+έχει δημιουργήσει όλα τα άλλα αντικείμενα που συνδέονται μεταξύ τους (με injection) και μας δίνει το τελικό αντικείμενο
+που χρειαζόμαστε. Αν θέλαμε να το αντιπροσωπεύσουμε με γραφικό τρόπο την λογική μας θα είχαμε το εξής διάγραμμα:</p>
+
+<img src="spring-unit2/spring-unit2-1.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Βλέπετε λοιπόν στο παράδειγμα μας, ότι ο client θα ζητήσει ένα αντικείμενο είδος Flight από το Spring Object Factory.
+Όμως υπάρχουν και άλλα dependencies στα οποία στηρίζονται οι κλάσεις μας πριν δημιουργήσουν το τελικό αντικείμενο. Ποια
+είναι αυτά τα helper objects?</p>
+
+<p>Στο δικό μας παράδειγμα, κάθε αντικείμενο είδος Flight περιέχει και ένα αντικείμενο είδος DailyOffer. Αυτό
+προγραμματιστικά ονομάζεται dependency γιατί για να δημιουργηθεί σωστά το αντικείμενο Flight θα πρέπει πρώτα να
+δημιουργηθεί το αντικείμενο DailyOffer και να το εισάγουμε στο Flight. Αν το DailyOffer δεν μπορεί να δημιουργηθεί τότε
+δεν μπορούμε να έχουμε αντικείμενο Flight.</p>
+
+<img src="spring-unit2/spring-unit2-2.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Για να λύσουμε αυτό το πρόβλημα πρέπει να ακολουθήσουμε μια από τις προτεινόμενες λύσεις που μας προσφέρει το Spring
+Framework η οποία είναι να εφαρμόσουμε <strong>Constructor Injection</strong>. Φυσικά υπάρχουν και άλλα είδη injection όπως <strong>Setter
+Injection</strong> και <strong>auto-wiring</strong> αλλά αυτά τα δούμε σε μελλοντικές ενότητες.</p>
+
+<p>Για να μπορέσουμε να καταλάβουμε καλύτερα το Constructor Dependency Injection, ας οργανώσουμε την προσέγγιση μας και ας
+ακολουθήσουμε τρία βήματα:</p>
+<p><strong>1.</strong> Πρέπει να ορίσουμε το Interface και την Class την οποία θέλουμε να κάνουμε injection</p>
+<p><strong>2.</strong> Να δημιουργήσουμε έναν constructor σε μια καινούργια κλάση που να δέχεται injections</p>
+<p><strong>3.</strong> Να ορίσουμε το dependency injection μέσα στο Spring configuration αρχείο.</p>
+
+<p>Ας ξεκινήσουμε λοιπόν με την δημιουργία της απλής εφαρμογής μας.</p>
+
+<p>Μπορείτε είτε να αντιγράψετε το project από την <a href="https://kassapoglou.github.io/spring/spring-unit1-introduction-to-spring-framework.html">
+	<font color="#0000CC">ΕΝΟΤΗΤΑ 1</font>
+</a> και να διαγράψετε όλες τις κλάσεις αφού θα δημιουργήσουμε
+καινούργιες, ή να δημιουργήσετε ένα καινούργιο project από την αρχή. Και στις δύο περιπτώσεις το POM.xml αρχείο
+παραμένει το ίδιο.</p>
+
+<h4><strong>ΒΗΜΑ 1 – Define the dependency interface and class</strong></h4>
+
+<p>Μέσα σε ένα πακέτο με το όνομα com.mycompany.flights δημιουργούμε ένα απλό Interface με το όνομα DailyOfferService. Το
+interface περιέχει μόνο μια μέθοδο που ονομάζεται getDailyOffer( ).</p>
+
+<p><strong>DailyOfferService.java</strong></p>
+<pre class="prettyprint">
+<xmp>
+package com.mycompany.flights;
+
+public interface DailyOfferService {
+	public String getDailyOffer();
+}
+</xmp>
+	</pre>
+
+<p>Τώρα πρέπει να γράψουμε την κλάση που κληρονομεί από το interface και υλοποιεί την μέθοδο του. Η υλοποίηση της απλά
+περιλαμβάνει ένα μήνυμα που ανακοινώνει μια έκπτωση 20% στο επόμενο ταξίδι στην Αθήνα.</p>
+
+<p><strong>DailyOfferServiceImpl.java</strong></p>
+<pre class="prettyprint">
+<xmp>
+package com.mycompany.flights;
+
+public class DailyOfferServiceImpl implements DailyOfferService{
+
+	@Override
+	public String getDailyOffer() {
+		return "You have received 20% discount on your next trip to Athens";
+	}
+}
+</xmp>
+	</pre>
+
+<p>Με αυτή την υλοποίηση ολοκληρώσαμε το βήμα 1. Τώρα πρέπει να δημιουργήσουμε το κύριο μέρος της εφαρμογής όπου
+δημιουργούμε αντικείμενα είδος Flight που εξαρτιούνται από τα DailyOffer αντικείμενα.</p>
+
+<h4><strong>ΒΗΜΑ 2 – Create a constructor in your class for injections</strong></h4>
+
+<p>Σε αυτό το δεύτερο βήμα, θα δημιουργήσουμε πρώτα το interface που θα ορίζει τις μεθόδους και μετά την κλάση που θα τις
+υλοποιεί. Μέσα στην κλάση όμως θα δημιουργήσουμε ένα dependency στο DailyOfferService. Ας τα δούμε ένα-ένα και ας
+εξηγήσουμε τι ακριβώς συμβαίνει στον κώδικα.</p>
+
+<p>Για αρχή λοιπόν θέλουμε να ορίσουμε ένα interface που θα ορίζει τις μεθόδους που απαιτεί η εφαρμογή. Για να κρατήσουμε
+των κώδικα σε απλό επίπεδο θα δημιουργήσουμε δύο μόνο μεθόδους. Η πρώτη θα ονομάζεται getDestination( ) και η δεύτερη
+getDailyOffer( ). Από τα ονόματα καταλαβαίνετε το σκοπό και τον ρόλο της κάθε μεθόδου. Η πρώτη θα μας επιστρέφει έναν
+τελικό προορισμό ενώ η δεύτερη θα μας επιστρέφει κάποιου είδους έκπτωση που μπορούμε να χρησιμοποιήσουμε στην επόμενη
+πτήση μας. Ο ολοκληρωμένος κώδικας του interface είναι ο εξής:</p>
+
+<p><strong>Flight.java</strong></p>
+<pre class="prettyprint">
+<xmp>
+package com.mycompany.flights;
+
+public interface Flight {
+	public String getDestination();
+	public String getDailyOffer();
+}
+</xmp>
+	</pre>
+
+<p>Τώρα δημιουργούμε την κλάση που κάνει implements αυτό το interface και υλοποιεί τις μεθόδους που κληρονόμησε. Ο κώδικας
+της κλάσης είναι ο εξής:</p>
+
+<p><strong>AthensFlight.java</strong></p>
+<pre class="prettyprint">
+<xmp>
+package com.mycompany.flights;
+
+public class AthensFlight implements Flight {
+
+	private DailyOfferService dailyOfferService;
+
+	public AthensFlight(DailyOfferService dailyOfferService) {
+		this.dailyOfferService = dailyOfferService;
+	}
+
+	@Override
+	public String getDestination() {
+		return "Your final destination is Athens Greece";
+	}
+
+	@Override
+	public String getDailyOffer() {
+		return dailyOfferService.getDailyOffer();
+	}
+
+}
+</xmp>
+	</pre>
+
+<p>Στην κλάση AthensFlight δημιουργούμε έναν constructor. Όπως ήδη γνωρίζουμε από την θεωρία της Java, ο constructor έχει
+πάντα το ίδιο όνομα με την κλάση. Όμως, για να δημιουργήσει ο constructor ένα αντικείμενο AthensFlight θα πρέπει πρώτα
+να του περάσουμε ένα αντικείμενο DailyOfferService σαν input παράμετρο στον constructor. Αν και εφόσον γίνει αυτό, τότε
+ο constructor αναθέτει στην μεταβλητή dailyOfferService, που έχουμε ορίσει σαν private, το αντικείμενο DailyOfferService
+και μετά δημιουργεί ένα αντικείμενο AthensFlight. Εδώ βλέπουμε καθαρά να υπάρχει ένα depedency ανάμεσα στο
+DailyOfferService και στο AthensFlight. Δεν μπορεί να δημιουργηθεί το δεύτερο αν πρώτα δεν έχουμε δημιουργήσει το πρώτο.
+Σε αυτό λοιπόν το σημείο θα μας φανεί χρήσιμο το Spring Framework γιατί μπορεί να δημιουργήσει τα αντικείμενα αυτόματα
+για εμάς, να κάνει inject το DailyOfferService στο AthensFlight και τέλος να μας επιστρέψει μέσω του Spring Object
+Factory το τελικό αντικείμενο. Για να μπορέσει όμως να το κάνει αυτό θα πρέπει να ενημερώσουμε το Spring Framework και
+κατά συνέπεια το Spring Container ποιες κλάσεις είναι αυτές που έχουν σχέση μεταξύ τους. Αυτό το ορίζουμε μέσα από το
+Spring Configuration αρχείο.</p>
+
+<h4><strong>ΒΗΜΑ 3 – Configure the dependency injection in Spring Configuration file</strong></h4>
+
+<p>Πριν προχωρήσουμε στην ανάλυση μας, ας δούμε πρώτα πως θα πρέπει να ορίσουμε το Dependency Injection μέσα στο Spring
+Configuration αρχείο.
+</p>
+
+<p><strong>flight.xml</strong></p>
+<pre class="prettyprint">
+<xmp>
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="myDailyOfferService" class="com.mycompany.flights.DailyOfferServiceImpl">
+
+	</bean>
+	<bean id="myFlight" class="com.mycompany.flights.AthensFlight">
+		<constructor-arg ref="myDailyOfferService" />
+	</bean>
+
+
+</beans>
+</xmp>
+	</pre>
+
+<p>Ορίζουμε λοιπόν εξ αρχής τα δύο αντικείμενα. Τα αντικείμενα στο Spring Framework ονομάζονται beans. Για αυτό και άλλωστε
+τα tags αρχίζουν και κλείνουν με την λέξη beans. Τώρα, όπως ήδη γνωρίζουμε από την <a href="https://kassapoglou.github.io/spring/spring-unit1-introduction-to-spring-framework.html">
+	<font color="#0000CC">ΕΝΟΤΗΤΑ 1</font>
+</a>, θα χρειαστεί να δώσουμε
+ένα δικό μας όνομα σε κάθε αντικείμενο (αυτό είναι το id) και το όνομα του πακέτου μαζί με το όνομα της κλάσης (class).
+Μέχρι εδώ είναι όλα γνωστά.</p>
+
+<p>Στο κώδικα μας όμως, έχουμε ορίσει στον constructor του AthensFlight ότι θα δημιουργηθεί ένα αντικείμενο AthensFlight
+χρειαζόμαστε και ένα αντικείμενο DailyOfferService. Αν απλά ορίσουμε τα beans τότε το Spring θα γνωρίζει αυτά τα δύο
+αντικείμενα αλλά δεν θα μπορεί να κάνει inject το ένα μέσα στο άλλο γιατί δεν γνωρίζει τον τρόπο.</p>
+
+<p>Αν θυμάστε από την προηγούμενη ενότητα, είχαμε πει ότι ο ορισμός του bean περιλαμβάνει κάποια properties. Από αυτά τα
+properties θα χρειαστούμε τώρα να χρησιμοποιήσουμε το <strong>constructor arguments</strong>.</p>
+
+<p><a href="https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#beans-definition">
+	<font color="#0000CC">(https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#beans-definition ).</font>
+</a></p>
+
+<img src="spring-unit2/spring-unit2-3.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Επίσης στο documentation μπορείτε να δείτε ένα γενικό κώδικα που περιγράφει το Constructor-based Dependency Injection
+όπως και ένα παράδειγμα του Spring Configuration αρχείου.</p>
+
+<p><a href="https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#beans-dependencies">
+		<font color="#0000CC">
+			(https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#beans-dependencies)</font>
+	</a></p>
+
+<img src="spring-unit2/spring-unit2-4.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<img src="spring-unit2/spring-unit2-5.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Οπότε, ακολουθώντας και εμείς το documentation του Spring Framework, ορίσαμε με το <strong>constructor-arg</strong> property ότι όποτε το
+Spring Container θέλει να δημιουργήσει ένα αντικείμενο AthensFlight, και λόγο του dependency που υπάρχει στην κλάση, θα
+δημιουργήσει πρώτα ένα αντικείμενο από το myDailyOfferService (αυτό είναι το όνομα που δώσαμε εμείς στο id του
+DailyOfferServiceImpl bean) και αφού το κάνει inject τότε θα προχωρήσει με την δημιουργία του AthensFlight αντικειμένου.
+Με αυτό το configuration στην ουσία λέμε στο Spring Framework δημιούργησε ένα DailyOfferService bean, κάντο inject στο
+AthensFlight και δώσε μου το αντικείμενο από το AthensFlight.</p>
+
+<p>Αν και μπορεί η εξήγηση με λόγια είναι κάπως μεγάλη για να κατανοήσετε την θεωρία, στην πραγματικότητα όμως γλυτώνετε
+πολύ κώδικα σε σύγκριση αν γράφατε την ίδια λογική χωρίς Spring.</p>
+
+<p>Τώρα αν πραγματικά έχετε απορία τι ακριβώς κάνει το Spring για εσάς ή τι θα έπρεπε να γράφατε εσείς μόνο με την χρήση
+της Java τότε νομίζω ότι η παρακάτω εικόνα θα σας δώσει την απάντηση:</p>
+
+<img src="spring-unit2/spring-unit2-6.JPG" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Ας γράψουμε λοιπόν έναν απλό client που ζητάει ένα αντικείμενο AthensFlight από το Spring Container και καλεί τις
+μεθόδους του.</p>
+
+<p><strong>HelloFlightApp.java</strong></p>
+<pre class="prettyprint">
+<xmp>
+package com.mycompany.flights;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class HelloFlightApp {
+	public static void main(String[] args) {
+	ClassPathXmlApplicationContext context =
+		new ClassPathXmlApplicationContext("flight.xml");
+	Flight myFlight = context.getBean("myFlight", Flight.class);
+	System.out.println(myFlight.getDestination());
+	System.out.println(myFlight.getDailyOffer());
+	context.close();
+
+	}
+}
+</xmp>
+	</pre>
+
+<p>Το POM.xml αρχείο είναι ως εξής:</p>
+
+<p><strong>POM.xml</strong></p>
+<pre class="prettyprint">
+<xmp>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.example</groupId>
+	<artifactId>SimpleApplicationContext</artifactId>
+	<version>1.0-SNAPSHOT</version>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-framework-bom</artifactId>
+				<version>5.2.7.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+	</dependencies>
+
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+	</properties>
+
+</project>
+</xmp>
+	</pre>
+
+<img src="spring-unit2/spring-unit2-7.JPG" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Αν τρέξετε την εφαρμογή, θα πρέπει να δείτε κάτι αντίστοιχο με το παρακάτω output:</p>
+
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+<xmp>
+Your final destination is Athens Greece
+You have received 20% discount on your next trip to Athens
+</xmp>
+	</pre>
+
+	<!--###############################################################################################################################################################-->																				
+									</div>
+								</div>
+																	<center>
+																		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+																			<input type="hidden" name="cmd" value="_s-xclick" />
+																			<input type="hidden" name="hosted_button_id" value="GQD77W6K672RA" />
+																			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+																				border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+																				alt="Donate with PayPal button" />
+																			<img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1"
+																				height="1" />
+																		</form>
+																	</center>
+							</div>
+						</div>
+
+						<!--<div class="row row-pb-lg animate-box">
+							<div class="col-md-12">
+								<h2 class="colorlib-heading-2">23 Comments</h2>
+								<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person1.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+						   	<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person2.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+						   	<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person3.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+							</div>
+						</div>-->
+
+						<!--<div class="row animate-box">
+							<div class="col-md-12">
+								<h2 class="colorlib-heading-2">Say something</h2>
+								<form action="#">
+									<div class="row form-group">
+										<div class="col-md-6">
+											<!-- <label for="fname">First Name</label> -->
+						<!--		<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+										</div>
+										<div class="col-md-6">
+											<!-- <label for="lname">Last Name</label> -->
+						<!--<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="email">Email</label> -->
+						<!--<input type="text" id="email" class="form-control" placeholder="Your email address">
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="subject">Subject</label> -->
+						<!--<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="message">Message</label> -->
+						<!--	<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="submit" value="Post Comment" class="btn btn-primary">
+									</div>
+								</form>	
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--<div id="colorlib-subscribe" class="subs-img" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
+						<h2>Subscribe Newsletter</h2>
+						<p>Subscribe our newsletter and get latest update</p>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="row">
+							<div class="col-md-12">
+							<form class="form-inline qbstp-header-subscribe">
+								<div class="col-three-forth">
+									<div class="form-group">
+										<input type="text" class="form-control" id="email" placeholder="Enter your email">
+									</div>
+								</div>
+								<div class="col-one-third">
+									<div class="form-group">
+										<button type="submit" class="btn btn-primary">Subscribe Now</button>
+									</div>
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<footer id="colorlib-footer">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 colorlib-widget">
+						<h4>PURPOSE</h4>
+						<p>Ο πρωταρχικός λόγος που με ώθησε στο να δημιουργήσω αυτή την
+							ιστοσελίδα και να προσφέρω δωρεάν μαθήματα είναι γιατί πιστεύω ότι
+							η γνώση, σε οποιοδήποτε επίπεδο, πρέπει να μεταδίδεται για να έχει αξία.</p>
+						<p>
+						<ul class="colorlib-social-icons">
+							<!--<li><a href="#"><i class="icon-twitter"></i></a></li>-->
+							<li><a href="https://www.facebook.com/kassapoglou/?ref=bookmarks"><i
+									class="icon-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/groups/4390739/"><i
+									class="icon-linkedin"></i></a></li>
+							<!--<li><a href="#"><i class="icon-dribbble"></i></a></li>-->
+						</ul>
+						</p>
+					</div>
+					<div class="col-md-3 colorlib-widget">
+						<h4>Quick Links</h4>
+						<p>
+						<ul class="colorlib-footer-links">
+							<!--<li><a href="#"><i class="icon-check"></i> About</a></li>-->
+							<!--<li><a href="#"><i class="icon-check"></i> Testimonials</a></li>-->
+							<li><a href="https://kassapoglou.github.io/main/"><i class="icon-check"></i>
+								Home</a></li>
+							<li><a href="https://kassapoglou.github.io/spring/spring-programming.html"><i class="icon-check"></i> SPRING Programming</a></li>
+							<li><a href="https://kassapoglou.github.io/main/courses.html"><i
+									class="icon-check"></i> Courses</a></li>
+							<!--<li><a href="#"><i class="icon-check"></i> Event</a></li>
+                        <li><a href="#"><i class="icon-check"></i> News</a></li>-->
+							<li><a href="https://kassapoglou.github.io/main/contact.html"><i
+									class="icon-check"></i> Contact</a></li>
+						</ul>
+						</p>
+					</div>
+
+					<!--<div class="col-md-3 colorlib-widget">
+                    <h4>Recent Post</h4>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                </div> -->
+
+					<div class="col-md-3 colorlib-widget">
+						<h4>Contact Info</h4>
+						<ul class="colorlib-footer-links">
+
+							<li><a href="tel://6976434707"><i class="icon-phone"></i> 6976434707</a></li>
+							<li><a href="mailto:michail.kassapoglou@gmail.com"><i class="icon-envelope"></i>
+								michail.kassapoglou@gmail.com</a></li>
+							<li><a href="kassapoglou.github.io/main"><i class="icon-location4"></i>
+								kassapoglou.github.io/main</a></li>
+							<li><a href="https://www.facebook.com/kassapoglou/?ref=bookmarks"><i
+									class="icon-facebook2"></i> Facebook</a></li>
+							<li><a href="https://www.linkedin.com/groups/4390739/"><i class="icon-linkedin"></i>
+								Linkedin</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copy">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<p>
+								<small class="block">&copy;
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+									Copyright &copy;<script>
+										document.write(new Date().getFullYear());
+									</script> All rights reserved | This template is made with <i class="icon-heart"
+																								  aria-hidden="true"></i> by <a href="https://colorlib.com"
+																																target="_blank">Colorlib</a>
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								</small><br>
+								<small class="block">Demo Images: <a href="http://unsplash.co/"
+																	 target="_blank">Unsplash</a>, <a href="http://pexels.com/"
+																									  target="_blank">Pexels</a></small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html></html>
