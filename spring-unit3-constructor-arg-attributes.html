@@ -1,0 +1,846 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Δωρεάν Μαθήματα Spring Framework</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		  content="Μια ολοκληρωμένη σειρά δωρεάν μαθημάτων και on-line σεμιναρίων σε Spring Framework">
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="Spring, Spring 5, Spring Boot,
+              δωρεάν,
+               προγραμματισμός, δωρεάν μαθήματα, δωρεάν σεμινάρια, μαθήματα Spring, σεμινάρια Spring" />
+	<meta name="author" content="Michail Kassapoglou" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sunburst"></script>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150900548-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-150900548-1');
+	</script>
+</head>
+<body>
+
+	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="upper-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4">
+							<p>Welcome to Kassapoglou</p>
+						</div>
+						<!--<div class="col-xs-6 col-md-push-2 text-right">
+							<p>
+								<ul class="colorlib-social-icons">
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-facebook"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble"></i></a></li>
+								</ul>
+							</p>
+							<p class="btn-apply"><a href="#">Apply Now</a></p>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<div id="colorlib-logo"><a
+									href="https://kassapoglou.github.io/main/index.html">Kassapoglou</a></div>
+						</div>
+						<div class="col-md-10 text-right menu-1">
+							<ul>
+								<li><a href="https://kassapoglou.github.io/main/index.html">Home</a></li>
+								<li class="has-dropdown active">
+									<a href="https://kassapoglou.github.io/main/courses.html">Courses</a>
+									<ul class="dropdown">
+										<li><a href="https://kassapoglou.github.io/java/java-programming.html">Java</a>
+										</li>
+										<li><a
+												href="https://kassapoglou.github.io/python/python-programming.html">Python</a>
+										</li>
+										<li><a href="https://kassapoglou.github.io/go/go-programming.html">GO</a></li>
+										<li><a
+												href="https://kassapoglou.github.io/javascript/javascript-programming.html">JavaScript</a>
+										</li>
+										<li><a href="https://kassapoglou.github.io/maven/learning-maven.html">Apache
+												Maven</a></li>
+										<li><a href="https://kassapoglou.github.io/camel/apache-camel-programming.html">Apache
+												Camel</a></li>
+										<li><a href="https://kassapoglou.github.io/spring/spring-programming.html">Spring
+												</a></li>
+									</ul>
+								</li>
+								<!--<li><a href="about.html">About</a></li>-->
+								<!--	<li><a href="event.html">Events</a></li>
+								<li><a href="news.html">News</a></li> -->
+								<li><a href="https://kassapoglou.github.io/main/contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+					<li style="background-image: url(images/A_Spring.png);">
+						<div class="overlay"></div>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+									<div class="slider-text-inner text-center">
+										<h1>ΜΑΘΑΙΝΩ ΔΩΡΕΑΝ SPRING FRAMEWORK</h1>
+										<h2><STRONG>ΕΝΟΤΗΤΑ 3 - CONSTRUCTOR-ARG ATTRIBUTES</STRONG></h2>
+										<h2><span><a href="https://kassapoglou.github.io/main/index.html">Home</a> | <a
+													href="https://kassapoglou.github.io/main/courses.html">Courses</a> |
+											<a href="https://kassapoglou.github.io/spring/spring-programming.html">SPRING PROGRAMMING</a></span></h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<div class="colorlib-classes">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-12">
+						<div class="row row-pb-lg">
+							<div class="col-md-12 animate-box">
+								<div class="classes class-single">
+									<div class="classes-img" style="background-image: url(images/A_Spring2.png);">
+										<span class="price text-center"><small>FREE</small></span>
+									</div>
+									<div class="desc desc2">
+										<h3 align="center"><a
+												href="https://kassapoglou.github.io/spring/spring-programming.html">ΕΝΟΤΗΤΑ 3 SPRING - CONSTRUCTOR-ARG ATTRIBUTES</a></h3>
+																					<center>
+																						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+																							<input type="hidden" name="cmd" value="_s-xclick" />
+																							<input type="hidden" name="hosted_button_id" value="GQD77W6K672RA" />
+																							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+																								border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+																								alt="Donate with PayPal button" />
+																							<img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1"
+																								height="1" />
+																						</form>
+																					</center>
+				
+
+<p>Στο σημερινό δωρεάν μάθημα Spring Framework θα δούμε τις επιπρόσθετες επιλογές που έχουμε όταν χρησιμοποιούμε το
+<strong> constructor-arg </strong> στο Spring configuration αρχείο. Ήδη έχουμε χρησιμοποιήσει το ref για να κάνουμε inject στην κλάση μας
+	ένα αντικείμενο από μια άλλη κλάση. Αν όμως χρησιμοποιείτε ένα IDE όπως το IntelliJ θα έχετε παρατηρήσει ότι όταν
+	γράφατε το <strong>ref</strong> εμφανίστηκαν και άλλες επιλογές.</p>
+
+<img src="spring-unit3/spring-unit3-1.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Αν και ο κύριος μας στόχος είναι να φτάσουμε στις ενότητες όπου όλο το configuration θα γίνεται μέσα από annotations,
+καλό θα ήταν να δούμε μερικές από τις δυνατότητες του constructor-arg χωρίς να μπούμε σε πολλές λεπτομέρειες.</p>
+
+<p>Πριν ξεκινήσουμε ας προσθέσουμε άλλη μια κλάση στο project, που είχαμε δημιουργήσει στην Ενότητα 2, και ας την
+ονομάσουμε <strong>Passenger</strong>. Η κλάση είναι μια απλή περιγραφή του επιβάτη όπως δείχνει και ο παρακάτω κώδικας:</p>
+
+<p><strong>Passenger.java</strong></p>
+<pre class="prettyprint">
+<xmp>
+package com.mycompany.flights;
+
+public class Passenger {
+    private String passengerName;
+    private int passengerAge;
+    private boolean European;
+
+    public Passenger(String passengerName, int passengerAge, boolean European) {
+        this.passengerName = passengerName;
+        this.passengerAge = passengerAge;
+        this.European = European;
+    }
+
+    public String toString(){
+        return "Passenger Name: " + this.passengerName + ", Age: " + this.passengerAge
+            +", is European: " +this.European;
+    }
+}
+</xmp>
+	</pre>
+
+<p>Μπορούμε τώρα να χρησιμοποιήσουμε το <strong>value</strong> attribute του constructor-arg έτσι ώστε όχι μόνο να δημιουργήσουμε το
+αντικείμενο αλλά να δώσουμε και αρχικές τιμές στις μεταβλητές του. Μπορείτε να βρείτε την σχετική θεωρία στο
+documentation.</p>
+
+<p><a href="https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html">
+	<font color="#0000CC">https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html</font>
+</a></p>
+
+<img src="spring-unit3/spring-unit3-2.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Προσθέτοντας και αυτή την πληροφορία, το beans.xml αρχείο γίνεται ως εξής:</p>
+
+<p><strong>beans.xml</strong></p>
+<pre class="prettyprint">
+<xmp>
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http: //www.springframework.org/schema/beans"        
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	 <bean id="myDailyOfferService" class="com.mycompany.flights.DailyOfferServiceImpl">
+	</bean>
+	    
+	<bean id="myFlight" class="com.mycompany.flights.AthensFlight">
+	<constructor-arg ref="myDailyOfferService" />
+	</bean>
+
+	 <bean id="flightPassenger" class="com.mycompany.flights.Passenger">
+		    
+		<constructor-arg value="Michail" />
+		    
+		<constructor-arg value="50" />
+		    
+		<constructor-arg value="True" />
+	</bean>
+	    
+</beans>
+
+</xmp>
+	</pre>
+
+<p>Ας αλλάξουμε και την HelloFlightApp κλάση έτσι ώστε να καλεί ένα αντικείμενο Passenger. Όταν καλέσουμε την μέθοδο
+toString( ) στο αντικείμενο, θα πρέπει να δούμε τις πληροφορίες που έχουμε ήδη περάσει στον Passenger μέσα από το
+constructor-arg χρησιμοποιώντας το value attribute.</p>
+
+<p><strong>HelloFlightApp.java</strong></p>
+<pre class="prettyprint">
+<xmp>
+package com.mycompany.flights;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class HelloFlightApp {
+    public static void main(String[] args) {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("flight.xml");
+        Flight myFlight = context.getBean("myFlight", Flight.class);
+        Passenger passenger = context.getBean("flightPassenger", Passenger.class);
+        System.out.println(passenger.toString());
+        System.out.println(myFlight.getDestination());
+        System.out.println(myFlight.getDailyOffer());
+        context.close();
+                
+                
+    }
+}
+
+</xmp>
+	</pre>
+
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+<xmp>
+Passenger Name: Michail, Age: 50, is European: true
+Your final destination is Athens Greece
+You have received 20% discount on your next trip to Athens
+</xmp>
+	</pre>
+
+<p>Ο τρόπος που το Spring Framework χρησιμοποίησε για να περάσει τις τιμές στον constructor είναι ο εξής:</p>
+<p><strong>1.</strong> Πρώτα έψαξε να βρει ποιος constructor από την κλάση Passenger δέχεται τρεις μεταβλητές.</p>
+<p><strong>2.</strong> Αν βρει περισσότερους από έναν constructor, τότε ψάχνει να βρει εκείνον τον constructor ή constructors που δέχονται
+τα συγκεκριμένα data types στις μεταβλητές τους.</p>
+<p><strong>3.</strong> Τέλος, ψάχνει να βρει εκείνον τον constructor ο οποίος ικανοποιεί τους δύο πρώτους όρους και επίσης δέχεται τις
+μεταβλητές με την σωστή σειρά.</p>
+
+<p>Τι σημαίνουν όλα αυτά? Σημαίνουν ότι, αν και είναι βολικό να περνάμε κάποια στοιχεία μέσα από το beans.xml κυρίως για
+testing λόγους, όμως θα πρέπει να περαστούν με τα σωστά data types και με την σωστή σειρά. Μην ξεχνάτε ότι μέσα από τον
+constructor-arg περάσαμε τα valueς ξέροντας ήδη τον constructor. Αν είχαμε βάλει τις τιμές λάθος, όπως δείχνει το
+παρακάτω παράδειγμα, θα λαμβάναμε το εξής μήνυμα από το Spring Framework όταν προσπαθήσουμε να το τρέξουμε:</p>
+
+<p><strong>beans.xml</strong></p>
+<pre class="prettyprint">
+<xmp>
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http: //www.springframework.org/schema/beans"        
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	 <bean id="myDailyOfferService" class="com.mycompany.flights.DailyOfferServiceImpl">       
+	</bean>
+
+	    <bean id="myFlight" class="com.mycompany.flights.AthensFlight">    
+		<constructor-arg ref="myDailyOfferService" />
+		</bean>
+
+	    <bean id="flightPassenger" class="com.mycompany.flights.Passenger">
+		    
+		<constructor-arg value="50" />
+		    
+		<constructor-arg value="Michail" />
+		    
+		<constructor-arg value="True" />
+		</bean>
+	    
+</beans>
+</xmp>
+	</pre>
+
+<p><strong>Output</strong></p>
+<img src="spring-unit3/spring-unit3-3.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Για να λύσουμε ένα τέτοιο πρόβλημα, θα μπορούσαμε να χρησιμοποιήσουμε μια ακόμα ιδιότητα του constructor-arg που
+ονομάζεται <strong>index</strong>. Το documentation για το συγκεκριμένο attribute είναι εδώ:</p>
+
+<p><a href="https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html">
+	<font color="#0000CC">https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html
+	</font>
+</a></p>
+
+<img src="spring-unit3/spring-unit3-4.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Με το index μπορούμε να ορίσουμε την σειρά των μεταβλητών όπως θέλουμε, αλλά ο αριθμός index αντιστοιχεί στην θέση που
+ανήκει η μεταβλητή στον constructor. Ας κρατήσουμε λοιπόν την λάθος σειρά των μεταβλητών και ας προσθέσουμε το index σε
+κάθε constructor-arg για να ενημερώσουμε το Spring Framework ποια είναι η θέση της κάθε παραμέτρου στον constructor. Η
+αρίθμηση του index ξεκινάει από το 0.</p>
+
+<p><strong>beans.xml</strong></p>
+<pre class="prettyprint">
+<xmp>
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http: //www.springframework.org/schema/beans"        
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	 <bean id="myDailyOfferService" class="com.mycompany.flights.DailyOfferServiceImpl">       
+	</bean>
+
+	    <bean id="myFlight" class="com.mycompany.flights.AthensFlight">    
+		<constructor-arg ref="myDailyOfferService" />
+		</bean>
+
+	    <bean id="flightPassenger" class="com.mycompany.flights.Passenger">
+		    
+		<constructor-arg value="50" index="1" />
+	    
+		<constructor-arg value="Michail" index="0" />
+	    
+		<constructor-arg value="True" index="2" />
+		</bean>
+	    
+</beans>
+</xmp>
+	</pre>
+
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+<xmp>
+Passenger Name: Michail, Age: 50, is European: true
+Your final destination is Athens Greece
+You have received 20% discount on your next trip to Athens
+</xmp>
+	</pre>
+
+<p>Με την προσθήκη του index φαίνεται να έχει λυθεί το πρόβλημα της ασάφειας με την σειρά των μεταβλητών. Αυτό μάλιστα θα
+μας λύσει και το πρόβλημα αν έχουμε δύο ή και περισσότερους constructors στην κλάση μας. Με άλλα λόγια με την χρήση του
+index το Spring Framework θα επιλέξει τον σωστό constructor. Ας προσθέσουμε έναν ακόμα constructor στην κλάση Passenger
+και ας τρέξουμε το πρόγραμμα μας.</p>
+
+<p><strong>Passenger.java</strong></p>
+<pre class="prettyprint">
+<xmp>
+package com.mycompany.flights;
+
+public class Passenger {
+    private String passengerName;
+    private int passengerAge;
+    private boolean european;
+    private String identity;
+
+    public Passenger(String passengerName, int passengerAge, String identity) {
+        this.passengerName = passengerName;
+        this.passengerAge = passengerAge;
+        this.identity = identity;
+    }
+
+    public Passenger(String passengerName, String identity, int passengerAge) {
+        this.passengerName = passengerName;
+        this.passengerAge = passengerAge;
+        this.identity = identity;
+    }
+
+    public String toString(){
+        return "Passenger Name: " + this.passengerName + ", Age: " + this.passengerAge
+            +", Identity or Password: " +this.identity;
+    }
+}
+</xmp>
+	</pre>
+
+<p><strong>beans.xml</strong></p>
+<pre class="prettyprint">
+<xmp>
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http: //www.springframework.org/schema/beans"        
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	 <bean id="myDailyOfferService" class="com.mycompany.flights.DailyOfferServiceImpl">       
+	</bean>
+
+	    <bean id="myFlight" class="com.mycompany.flights.AthensFlight">    
+		<constructor-arg ref="myDailyOfferService" />
+		</bean>
+
+	    <bean id="flightPassenger" class="com.mycompany.flights.Passenger">
+		    
+		<constructor-arg value="50" index="1" />
+	    
+		<constructor-arg value="Michail" index="0" />
+	    
+		<constructor-arg value="True" index="2" />
+		</bean>
+	    
+</beans>
+</xmp>
+	</pre>
+
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+<xmp>
+Passenger Name: Michail, Age: 50, Identity or Password: 12345678
+Your final destination is Athens Greece
+You have received 20% discount on your next trip to Athens
+</xmp>
+	</pre>
+
+<p>Αν αφαιρέσουμε τώρα το index από όλα τα constructor-arg, το πρόγραμμα μας δεν θα μας εμφανίσει κάποιο λάθος γιατί πολύ
+απλά το Spring Framework θα επιλέξει τον <strong>λάθος constructor</strong> για την δημιουργία του αντικειμένου!!!.</p>
+
+<p><strong>beans.xml</strong></p>
+<pre class="prettyprint">
+<xmp>
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http: //www.springframework.org/schema/beans"        
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	 <bean id="myDailyOfferService" class="com.mycompany.flights.DailyOfferServiceImpl">       
+	</bean>
+
+	    <bean id="myFlight" class="com.mycompany.flights.AthensFlight">    
+		<constructor-arg ref="myDailyOfferService" />
+		</bean>
+
+	    <bean id="flightPassenger" class="com.mycompany.flights.Passenger">
+		    
+		<constructor-arg value="Michail"  />
+    
+		<constructor-arg value="12345678"  />
+    
+		<constructor-arg value="50"  />
+		</bean>
+	    
+</beans>
+</xmp>
+	</pre>
+
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+<xmp>
+Passenger Name: Michail, Age: 12345678, Identity or Password: 50
+Your final destination is Athens Greece
+You have received 20% discount on your next trip to Athens
+</xmp>
+	</pre>
+
+<p>Αν δεν θέλετε να χρησιμοποιήσετε index, που έτσι και αλλιώς απαιτεί γνώση της σειράς των μεταβλητών στον constructor,
+μπορούμε να λύσουμε αυτό το πρόβλημα δηλώνοντας το <strong>type</strong> της κάθε τιμής που περνάμε στον constructor-arg.</p>
+
+<p><a href="https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html">
+		<font color="#0000CC">https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html
+		</font>
+	</a></p>
+
+<img src="spring-unit3/spring-unit3-5.jpg" alt="Δωρεάν Μαθήματα και Σεμινάρια Spring Framework" class="center">
+<p></p>
+
+<p>Ας αλλάξουμε το beans.xml ακόμα μια φορά προσθέτοντας το data type των τιμών.</p>
+
+<p><strong>beans.xml</strong></p>
+<pre class="prettyprint">
+<xmp>
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http: //www.springframework.org/schema/beans"        
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	 <bean id="myDailyOfferService" class="com.mycompany.flights.DailyOfferServiceImpl">       
+	</bean>
+
+	    <bean id="myFlight" class="com.mycompany.flights.AthensFlight">    
+		<constructor-arg ref="myDailyOfferService" />
+		</bean>
+
+	    <bean id="flightPassenger" class="com.mycompany.flights.Passenger">
+		    
+		<constructor-arg value="Michail" type="java.lang.String"  />
+	    
+		<constructor-arg value="12345678" type="java.lang.String"  />
+	    
+		<constructor-arg value="50" type="int"  />
+		</bean>
+	    
+</beans>
+</xmp>
+	</pre>
+
+<p><strong>Output</strong></p>
+<pre class="prettyprint">
+<xmp>
+Passenger Name: Michail, Age: 50, Identity or Password: 12345678
+Your final destination is Athens Greece
+You have received 20% discount on your next trip to Athens
+</xmp>
+	</pre>
+
+	<!--###############################################################################################################################################################-->																				
+									</div>
+								</div>
+																	<center>
+																		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+																			<input type="hidden" name="cmd" value="_s-xclick" />
+																			<input type="hidden" name="hosted_button_id" value="GQD77W6K672RA" />
+																			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+																				border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+																				alt="Donate with PayPal button" />
+																			<img alt="" border="0" src="https://www.paypal.com/en_GR/i/scr/pixel.gif" width="1"
+																				height="1" />
+																		</form>
+																	</center>
+							</div>
+						</div>
+
+						<!--<div class="row row-pb-lg animate-box">
+							<div class="col-md-12">
+								<h2 class="colorlib-heading-2">23 Comments</h2>
+								<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person1.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+						   	<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person2.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+						   	<div class="review">
+						   		<div class="user-img" style="background-image: url(images/person3.jpg)"></div>
+						   		<div class="desc">
+						   			<h4>
+						   				<span class="text-left">Jacob Webb</span>
+						   				<span class="text-right">24 March 2018</span>
+						   			</h4>
+						   			<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrov</p>
+						   			<p class="star">
+					   					<span class="text-left"><a href="#" class="reply"><i class="icon-reply"></i></a></span>
+						   			</p>
+						   		</div>
+						   	</div>
+							</div>
+						</div>-->
+
+						<!--<div class="row animate-box">
+							<div class="col-md-12">
+								<h2 class="colorlib-heading-2">Say something</h2>
+								<form action="#">
+									<div class="row form-group">
+										<div class="col-md-6">
+											<!-- <label for="fname">First Name</label> -->
+						<!--		<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+										</div>
+										<div class="col-md-6">
+											<!-- <label for="lname">Last Name</label> -->
+						<!--<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="email">Email</label> -->
+						<!--<input type="text" id="email" class="form-control" placeholder="Your email address">
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="subject">Subject</label> -->
+						<!--<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+										</div>
+									</div>
+
+									<div class="row form-group">
+										<div class="col-md-12">
+											<!-- <label for="message">Message</label> -->
+						<!--	<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="submit" value="Post Comment" class="btn btn-primary">
+									</div>
+								</form>	
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--<div id="colorlib-subscribe" class="subs-img" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center colorlib-heading animate-box">
+						<h2>Subscribe Newsletter</h2>
+						<p>Subscribe our newsletter and get latest update</p>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="row">
+							<div class="col-md-12">
+							<form class="form-inline qbstp-header-subscribe">
+								<div class="col-three-forth">
+									<div class="form-group">
+										<input type="text" class="form-control" id="email" placeholder="Enter your email">
+									</div>
+								</div>
+								<div class="col-one-third">
+									<div class="form-group">
+										<button type="submit" class="btn btn-primary">Subscribe Now</button>
+									</div>
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<footer id="colorlib-footer">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 colorlib-widget">
+						<h4>PURPOSE</h4>
+						<p>Ο πρωταρχικός λόγος που με ώθησε στο να δημιουργήσω αυτή την
+							ιστοσελίδα και να προσφέρω δωρεάν μαθήματα είναι γιατί πιστεύω ότι
+							η γνώση, σε οποιοδήποτε επίπεδο, πρέπει να μεταδίδεται για να έχει αξία.</p>
+						<p>
+						<ul class="colorlib-social-icons">
+							<!--<li><a href="#"><i class="icon-twitter"></i></a></li>-->
+							<li><a href="https://www.facebook.com/kassapoglou/?ref=bookmarks"><i
+									class="icon-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/groups/4390739/"><i
+									class="icon-linkedin"></i></a></li>
+							<!--<li><a href="#"><i class="icon-dribbble"></i></a></li>-->
+						</ul>
+						</p>
+					</div>
+					<div class="col-md-3 colorlib-widget">
+						<h4>Quick Links</h4>
+						<p>
+						<ul class="colorlib-footer-links">
+							<!--<li><a href="#"><i class="icon-check"></i> About</a></li>-->
+							<!--<li><a href="#"><i class="icon-check"></i> Testimonials</a></li>-->
+							<li><a href="https://kassapoglou.github.io/main/"><i class="icon-check"></i>
+								Home</a></li>
+							<li><a href="https://kassapoglou.github.io/spring/spring-programming.html"><i class="icon-check"></i> SPRING Programming</a></li>
+							<li><a href="https://kassapoglou.github.io/main/courses.html"><i
+									class="icon-check"></i> Courses</a></li>
+							<!--<li><a href="#"><i class="icon-check"></i> Event</a></li>
+                        <li><a href="#"><i class="icon-check"></i> News</a></li>-->
+							<li><a href="https://kassapoglou.github.io/main/contact.html"><i
+									class="icon-check"></i> Contact</a></li>
+						</ul>
+						</p>
+					</div>
+
+					<!--<div class="col-md-3 colorlib-widget">
+                    <h4>Recent Post</h4>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                    <div class="f-blog">
+                        <a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
+                        </a>
+                        <div class="desc">
+                            <h2><a href="blog.html">Creating Mobile Apps</a></h2>
+                            <p class="admin"><span>18 April 2018</span></p>
+                        </div>
+                    </div>
+                </div> -->
+
+					<div class="col-md-3 colorlib-widget">
+						<h4>Contact Info</h4>
+						<ul class="colorlib-footer-links">
+
+							<li><a href="tel://6976434707"><i class="icon-phone"></i> 6976434707</a></li>
+							<li><a href="mailto:michail.kassapoglou@gmail.com"><i class="icon-envelope"></i>
+								michail.kassapoglou@gmail.com</a></li>
+							<li><a href="kassapoglou.github.io/main"><i class="icon-location4"></i>
+								kassapoglou.github.io/main</a></li>
+							<li><a href="https://www.facebook.com/kassapoglou/?ref=bookmarks"><i
+									class="icon-facebook2"></i> Facebook</a></li>
+							<li><a href="https://www.linkedin.com/groups/4390739/"><i class="icon-linkedin"></i>
+								Linkedin</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copy">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<p>
+								<small class="block">&copy;
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+									Copyright &copy;<script>
+										document.write(new Date().getFullYear());
+									</script> All rights reserved | This template is made with <i class="icon-heart"
+																								  aria-hidden="true"></i> by <a href="https://colorlib.com"
+																																target="_blank">Colorlib</a>
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								</small><br>
+								<small class="block">Demo Images: <a href="http://unsplash.co/"
+																	 target="_blank">Unsplash</a>, <a href="http://pexels.com/"
+																									  target="_blank">Pexels</a></small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html></html>
